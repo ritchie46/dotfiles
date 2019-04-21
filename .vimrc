@@ -10,7 +10,10 @@ let g:ale_linters = {
 			\   'python': ['pylint'] ,
 			\ }
 
+" Start in NERDTree
 autocmd vimenter * NERDTree
+" Go to previous (last accessed) window.
+autocmd VimEnter * wincmd p
 let NERDTreeIgnore=['\.pyc$'] 
 
 execute pathogen#infect()
