@@ -12,6 +12,8 @@ git clone https://github.com/tpope/vim-sensible.git
 git clone git@github.com:vim-scripts/indentpython.vim.git
 ## auto close html tags
 git clone git@github.com:alvan/vim-closetag.git
+## status bar
+git clone git@github.com:vim-airline/vim-airline.git
 ## auto completion
 git clone git@github.com:Valloric/YouCompleteMe.git
 cd YouCompleteMe && git submodule update --init --recursive
