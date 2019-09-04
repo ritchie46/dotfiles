@@ -6,6 +6,9 @@ set nu
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
+" allow CTRL-C clipboard clipping
+vnoremap <C-c> "*y :let @+=@*<CR>
+
 let g:ycm_filetype_blacklist = { 
 			\ 'html': 1,
 			\ 'xml': 1,
