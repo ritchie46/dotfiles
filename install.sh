@@ -1,3 +1,4 @@
+set -e
 DOTFILESD=$(pwd)
 
 # vim setup
@@ -5,6 +6,7 @@ DOTFILESD=$(pwd)
 mkdir -p ${DOTFILESD}/.vim/autoload ~/.vim/bundle && \
 curl -LSso ${DOTFILESD}/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
+mkdir -p .vim/bundle
 cd .vim/bundle/
 ## sensible vim settings
 git clone https://github.com/tpope/vim-sensible.git
@@ -14,7 +16,9 @@ git clone git@github.com:vim-scripts/indentpython.vim.git
 git clone git@github.com:alvan/vim-closetag.git
 ## status bar
 git clone git@github.com:vim-airline/vim-airline.git
-## auto completion
+### NERDtree
+git clone https://github.com/scrooloose/nerdtree.git
+# auto completion
 git clone git@github.com:Valloric/YouCompleteMe.git
 cd YouCompleteMe && git submodule update --init --recursive
 ./install.py
