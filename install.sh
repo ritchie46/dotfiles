@@ -25,3 +25,4 @@ cd YouCompleteMe && git submodule update --init --recursive
 
 ln -sv ${DOTFILESD}/.vim ~/.vim
 ln -sv ${DOTFILESD}/.vimrc ~/.vimrc
+ln -sv ${DOTFILESD}/.bashrc ~/.bashrc
