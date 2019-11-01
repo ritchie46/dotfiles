@@ -16,9 +16,9 @@ git clone git@github.com:vim-scripts/indentpython.vim.git
 git clone git@github.com:alvan/vim-closetag.git
 ## status bar
 git clone git@github.com:vim-airline/vim-airline.git
-### NERDtree
+## NERDtree
 git clone https://github.com/scrooloose/nerdtree.git
-# auto completion
+## auto completion
 git clone git@github.com:Valloric/YouCompleteMe.git
 cd YouCompleteMe && git submodule update --init --recursive
 ./install.py
@@ -27,3 +27,4 @@ ln -sv ${DOTFILESD}/.vim ~/.vim
 ln -sv ${DOTFILESD}/.vimrc ~/.vimrc
 ln -sv ${DOTFILESD}/.condarc ~/.condarc
 ln -sv ${DOTFILESD}/.screenrc ~/.screenrc
+ln -sv ${DOTFILESD}/.bashrc ~/.bashrc

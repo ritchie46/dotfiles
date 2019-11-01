@@ -15,10 +15,6 @@ let g:ycm_filetype_blacklist = {
 			\ 'markdown': 1
 			\}
 
-let g:ale_linters = {
-			\   'python': ['pylint'] ,
-			\ }
-
 " Start in NERDTree
 autocmd vimenter * NERDTree
 " Go to previous (last accessed) window.
