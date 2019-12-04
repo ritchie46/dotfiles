@@ -1,0 +1,2 @@
+# sources .bashrc at every new screen
+shell -$SHELL
