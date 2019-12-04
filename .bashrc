@@ -125,3 +125,10 @@ fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+################
+# mapping keys #
+################
+# option 1: setxkbmap -option caps:escape
+# option 2: this is set in the gnome-tweak-tool: Keyboard & Mouse > Additional Layout Options > Caps Lock Behavior
+setxkbmap -option caps:escape
+
