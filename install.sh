@@ -12,12 +12,12 @@ cd .vim/bundle/
 git clone https://github.com/tpope/vim-sensible.git
 ## python indentation
 git clone git@github.com:vim-scripts/indentpython.vim.git
-## auto close html tags
-git clone git@github.com:alvan/vim-closetag.git
 ## status bar
 git clone git@github.com:vim-airline/vim-airline.git
 ## NERDtree
 git clone https://github.com/scrooloose/nerdtree.git
+## vim-surround
+git clone https://tpope.io/vim/surround.git
 ## auto completion
 git clone git@github.com:Valloric/YouCompleteMe.git
 cd YouCompleteMe && git submodule update --init --recursive
